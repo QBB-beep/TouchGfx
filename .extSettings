@@ -1,0 +1,7 @@
+[ProjectFiles]
+HeaderPath=../Drivers/BSP/Components/Common;../Drivers/BSP/Components;../Drivers/BSP/Components/ft3x67;../Drivers/BSP/STM32L4R9I-DISCOVERY
+[Groups]
+Application/User/TouchGFX/target=../TouchGFX/target/CortexMMCUInstrumentation.cpp
+Drivers/BSP/STM32L4R9I-DISCOVERY=../Drivers/BSP/STM32L4R9I-DISCOVERY/stm32l4r9i_discovery_io.c
+Drivers/BSP/Components=../Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c;../Drivers/BSP/Components/ft3x67/ft3x67.c;
+[Others]

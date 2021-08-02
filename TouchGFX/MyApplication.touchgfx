@@ -1,0 +1,272 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "Type": "Box",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "Name": "BackgroundFill",
+            "X": 0,
+            "Y": 0,
+            "Width": 390,
+            "Height": 390,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "background.png",
+            "Alpha": 255,
+            "Name": "Background",
+            "X": 0,
+            "Y": 0,
+            "Width": 390,
+            "Height": 390,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextureMapper",
+            "UseAnimation": true,
+            "RenderingAlgorithm": "Bilinear Interpolation",
+            "FileNameImage": "hum_press_needle.png",
+            "LockBitmapToCenter": false,
+            "XBitmapPosition": 99.99999999999994,
+            "YBitmapPosition": 159.0,
+            "XAngle": 0.0,
+            "YAngle": 0.0,
+            "ZAngle": 0.0,
+            "Scale": 1.0,
+            "LockOrigoToCenter": false,
+            "XOrigo": 103.0,
+            "YOrigo": 195.0,
+            "ZOrigo": 300.0,
+            "CameraDistance": 300.0,
+            "Alpha": 255,
+            "Name": "humidity",
+            "X": 0,
+            "Y": 0,
+            "Width": 390,
+            "Height": 390,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextureMapper",
+            "UseAnimation": true,
+            "RenderingAlgorithm": "Bilinear Interpolation",
+            "FileNameImage": "hum_press_needle.png",
+            "LockBitmapToCenter": false,
+            "XBitmapPosition": 284.0,
+            "YBitmapPosition": 159.0,
+            "XAngle": 0.0,
+            "YAngle": 0.0,
+            "ZAngle": 0.0,
+            "Scale": 1.0,
+            "LockOrigoToCenter": false,
+            "XOrigo": 287.0,
+            "YOrigo": 195.0,
+            "ZOrigo": 300.0,
+            "CameraDistance": 300.0,
+            "Alpha": 255,
+            "Name": "pressure",
+            "X": 0,
+            "Y": 0,
+            "Width": 390,
+            "Height": 390,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "hum_press_needle_center.png",
+            "Alpha": 255,
+            "Name": "PressureGaugeDot",
+            "X": 276,
+            "Y": 184,
+            "Width": 22,
+            "Height": 22,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "hum_press_needle_center.png",
+            "Alpha": 255,
+            "Name": "HumidityGaugeDot",
+            "X": 92,
+            "Y": 184,
+            "Width": 22,
+            "Height": 22,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "tgfx_logo_white.png",
+            "Alpha": 255,
+            "Name": "tgfx_logo_white",
+            "X": 95,
+            "Y": 275,
+            "Width": 200,
+            "Height": 37,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "AnalogClock",
+            "FileNameBackground": "blank_watch_background.png",
+            "RotationCenterX": 195,
+            "RotationCenterY": 195,
+            "UseAnimation": true,
+            "Duration": 10,
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "ClockHands": [
+              {
+                "Type": "HourClockHand",
+                "FileNameHandImage": "watch_hours.png",
+                "RotationCenterX": 12,
+                "RotationCenterY": 112,
+                "HourHandMinuteCorrection": true
+              },
+              {
+                "Type": "MinuteClockHand",
+                "FileNameHandImage": "watch_minutes.png",
+                "RotationCenterX": 12,
+                "RotationCenterY": 140,
+                "MinuteHandSecondCorrection": false
+              },
+              {
+                "Type": "SecondClockHand",
+                "FileNameHandImage": "watch_seconds.png",
+                "RotationCenterX": 2,
+                "RotationCenterY": 172
+              }
+            ],
+            "UseAmPm": false,
+            "InitialHour": 1,
+            "InitialMinute": 10,
+            "InitialSecond": 0,
+            "Name": "analogClock",
+            "X": 0,
+            "Y": 0,
+            "Width": 390,
+            "Height": 390,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "watch_needle_center.png",
+            "Alpha": 255,
+            "Name": "watch_needle_center",
+            "X": 177,
+            "Y": 177,
+            "Width": 36,
+            "Height": 36,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [],
+        "Name": "Main",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 390,
+      "Height": 390
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp",
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 390,
+        "Height": 390
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32L4R9I_DISCOVERY.ioc --platform=m4",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32L4"
+  },
+  "Version": "4.17.0",
+  "CreatedBy": "4.17.0"
+}

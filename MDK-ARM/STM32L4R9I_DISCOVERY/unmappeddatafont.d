@@ -1,0 +1,12 @@
+stm32l4r9i_discovery\unmappeddatafont.o: ../touchgfx/generated/fonts/src/unmappeddatafont.cpp
+stm32l4r9i_discovery\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/FlashDataReader.hpp
+stm32l4r9i_discovery\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
+stm32l4r9i_discovery\unmappeddatafont.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+stm32l4r9i_discovery\unmappeddatafont.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32l4r9i_discovery\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
+stm32l4r9i_discovery\unmappeddatafont.o: ../touchgfx/generated/fonts/include/fonts/ApplicationFontProvider.hpp
+stm32l4r9i_discovery\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/FontManager.hpp
+stm32l4r9i_discovery\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
+stm32l4r9i_discovery\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
+stm32l4r9i_discovery\unmappeddatafont.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+stm32l4r9i_discovery\unmappeddatafont.o: ../touchgfx/generated/fonts/include/fonts/UnmappedDataFont.hpp

@@ -1,0 +1,22 @@
+
+{
+  "Application": {
+    "Name": "STM32L4R9I_DISCOVERY",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions" : [
+      {
+        "Width": 390,
+        "Height": 390
+      }
+    ],
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../STM32L4R9I_DISCOVERY.ioc --platform=m4",
+    "Family" : "STM32L4",
+    "SubFamily" : "STM32L4R9/S9"
+  },
+  "Version": "4.17.0"
+}
